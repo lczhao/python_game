@@ -180,6 +180,7 @@ def main():
 		
 		#update the coordinate of our game objects...
 		ball.update(wall_list);
+		
 		bar1.update(border);
 		bar2.judge(ball);
 		bar2.update(border);
